@@ -1,0 +1,19 @@
+{
+  "name": "aria-select",
+  "version": "1.0.0",
+  "description": "Selects dom elements with aria roles",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "./node_modules/.bin/node-electron ./node_modules/bse/bse.js test/*.js"
+  },
+  "author": "joshski <joshuachisholm@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "node-electron": "https://github.com/featurist/node-electron.git",
+    "bse": "https://github.com/featurist/bse.git"
+  }
+}
